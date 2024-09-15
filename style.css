@@ -258,6 +258,12 @@ button {
   filter: grayscale(100%)
 }
 
+.blur {
+  filter: blur(3px);
+}
+
+
+
 .footer-container {
   background-color: darkgreen;
   display: flex;
