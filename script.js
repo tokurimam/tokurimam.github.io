@@ -83,7 +83,7 @@ function refreshFooter() {
   document.getElementById('message-midbar').style.display = "none";
   document.getElementById('message-right').style.display = "none";
   document.getElementById('message-center').style.display = "block";
-  document.getElementById('message-center').innerHTML = `<span class="test"><strong><a href="https://www.muharremsimsek.com" style="width: 1280px" id="message-center" class="footer-item">Tokur İmam</a> © 2024</strong></span>`;
+  document.getElementById('message-center').innerHTML = `<span class="test"><strong><a href="https://www.muharremsimsek.com" style="width: 1280px" id="message-center" class="footer-item">Tokurimam</a> © 2024</strong></span>`;
   } else {
   // document.getElementById('title-message').textContent = `Scene Title (${currentScene} of ${totalScenes})`;
   document.getElementById('title-message').textContent = `${titles[currentScene]}`;
