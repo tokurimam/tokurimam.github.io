@@ -90,16 +90,16 @@ header {
 
 .social-media {
     text-align: center;
-    margin-top: 7px;
+    margin-top: 5px;
     margin-bottom: 5px;
-	    color: #ffff00;
+	color: #ffff00;
 	}
 
 .social-btn {
     display: inline-block;
-    padding: 5px 10px;
+    padding: 6px 6px 1px 6px;
     margin: 5px;
-    background-color: #555;
+    background-color: #ddd;
     color: #000;
     text-decoration: none;
     border-radius: 5px;
@@ -107,7 +107,7 @@ header {
 }
 
 .social-btn:hover {
-    background-color: #ff8000;
+    background-color: #ffff00;
     color: #fff;
 }
 
