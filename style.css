@@ -29,8 +29,8 @@ header {
 }
 
 .artist-picture {
-    width: 100%;
-    height: auto;
+    height: 400px;
+	width: 400px;
     border-radius: 50%;
     object-fit: cover;
     display: block;
@@ -118,10 +118,12 @@ header {
         align-items: center;
     }
     .half {
-        flex-basis: 50%;
+        flex-basis: 100%;
         padding: 20px;
     }
     .artist-picture {
+		height: 200px;
+		width: 200px;
         margin-left: 0;
     }
     .cv {
