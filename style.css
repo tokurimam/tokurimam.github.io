@@ -113,21 +113,22 @@ header {
 
 @media (max-width: 768px) {
     .flexbox {
-        flex-direction: column;
+    flex-direction: column;
     }
     .half {
-        flex-basis: 100%;
+    flex-basis: 100%;
     }
 	.artist-picture {
 	margin-left: 100px;
 	}
 	.cv {
-	margin-right: 0px;
+	margin-right: 50px;
+	margin-left: 25px;
 	}
 	.container {
-    max-width: 1280px;
-    margin: auto;
-    padding: 0px;
+	width: 100%;
+    margin: 0;
+    padding: 0;
     background-color: #400000;
 	background-image: linear-gradient(rgba(0, 0, 0, 0.33), rgba(0, 0, 0, 0.66)), url('02222.jpg');
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
